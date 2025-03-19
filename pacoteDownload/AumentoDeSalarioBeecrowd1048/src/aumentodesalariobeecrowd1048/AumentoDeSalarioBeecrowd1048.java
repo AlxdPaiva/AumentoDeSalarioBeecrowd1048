@@ -26,31 +26,31 @@ public class AumentoDeSalarioBeecrowd1048 {
             double reajuste = novosal - sal;
             System.out.println(String.format("Novo salario: %.2f", novosal));
             System.out.println(String.format("Reajuste ganho: %.2f", reajuste));
-            System.out.println("Em percentual: 15%");
+            System.out.println("Em percentual: 15 %");
         } else if (sal > 400 && sal <= 800) {
             double novosal = sal*1.12;
             double reajuste = novosal - sal;
             System.out.println(String.format("Novo salario: %.2f", novosal));
             System.out.println(String.format("Reajuste ganho: %.2f", reajuste));
-            System.out.println("Em percentual: 12%");
+            System.out.println("Em percentual: 12 %");
         } else if (sal > 800 && sal <= 1200) {
             double novosal = sal*1.1;
             double reajuste = novosal - sal;
             System.out.println(String.format("Novo salario: %.2f", novosal));
             System.out.println(String.format("Reajuste ganho: %.2f", reajuste));
-            System.out.println("Em percentual: 10%");
+            System.out.println("Em percentual: 10 %");
         } else if (sal > 1200 && sal <= 2000) {
             double novosal = sal*1.07;
             double reajuste = novosal - sal;
             System.out.println(String.format("Novo salario: %.2f", novosal));
             System.out.println(String.format("Reajuste ganho: %.2f", reajuste));
-            System.out.println("Em percentual: 7%");
+            System.out.println("Em percentual: 7 %");
         } else {
             double novosal = sal*1.04;
             double reajuste = novosal - sal;
             System.out.println(String.format("Novo salario: %.2f", novosal));
             System.out.println(String.format("Reajuste ganho: %.2f", reajuste));
-            System.out.println("Em percentual: 4%");
+            System.out.println("Em percentual: 4 %");
         }
         
     
